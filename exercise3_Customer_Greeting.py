@@ -14,6 +14,9 @@ def format_greeting(name,title="Customer"):
 
 
 #Main program
-full_name = input("What is your full name? ")
-greeting = format_greeting(full_name)
-print(greeting)
+def main():
+    full_name = input("What is your full name? ")
+    greeting = format_greeting(full_name)
+    print(greeting)
+
+main()
